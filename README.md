@@ -18,7 +18,7 @@ The tools you'll interact with are:
 'grpc_tensorflow_server' requires a "clusterspec" string
 to be provided on the command line.
 
-Because Mesos is asynchronous nature, a modified version
+Because Mesos is asynchronous in nature, a modified version
 of the 'grpc_tensorflow_server' runtime was developed
 to collect the "clusterspec" string from Mesos or
 Marathon using polling with exponential backoff.
@@ -59,3 +59,4 @@ when that edit is complete, run ./build.sh
 
 Then go to your $TENSORFLOW_HOME directory and run the bazel
 build process.
+
