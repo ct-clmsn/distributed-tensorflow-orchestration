@@ -11,9 +11,9 @@ interact with Mesos using the Marathon Framework.
 
 The tools you'll interact with are:
 
- 'grpc_tensorflow_server_remote'
- 'dtforchestrator.py'
- 'example.py'
+ * 'grpc_tensorflow_server_remote'
+ * 'dtforchestrator.py'
+ * 'example.py'
 
 'grpc_tensorflow_server' requires a "clusterspec" string
 to be provided on the command line.
@@ -36,24 +36,24 @@ use 'dtforchestrator.py'
 The 'grpc_tensorflow_server' directory houses the
 following files:
 
- BUILD
- ClusterSpecHandler.hpp
- grpc_tensorflow_server_remote.cc
- MarathonClusterSpecBuilder.hpp
- marathonimpl.hpp
- ClusterSpecBuilder.hpp
- Dockerfile  
- MarathonClusterSpecBuilder.cpp
- marathonimpl.cpp
+ * BUILD
+ * ClusterSpecHandler.hpp
+ * grpc_tensorflow_server_remote.cc
+ * MarathonClusterSpecBuilder.hpp
+ * marathonimpl.hpp
+ * ClusterSpecBuilder.hpp
+ * Dockerfile  
+ * MarathonClusterSpecBuilder.cpp
+ * marathonimpl.cpp
 
 Open 'build.sh' and set the variable
 
-TENSORFLOW_HOME
+	TENSORFLOW_HOME
 
 to the that that contains the tensorflow
 source code. Example:
 
-TENSORFLOW_HOME=$HOME/Downloads/tensorflow/core/distributed_runtime/rpc/
+	TENSORFLOW_HOME=$HOME/Downloads/tensorflow/core/distributed_runtime/rpc/
 
 when that edit is complete, run ./build.sh
 
