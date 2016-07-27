@@ -60,3 +60,12 @@ when that edit is complete, run ./build.sh
 Then go to your $TENSORFLOW_HOME directory and run the bazel
 build process.
 
+A Dockerfile is provided in the grpc_tensorflow_server directory to
+ease with Marathon deployments.
+
+This software also supports running "multiprocess" versions of a
+distributed tensorflow compute sessions - a great way to test prior
+to distributed deployments.
+
+The version of grpc_tensorflow_server_remote.cc is a couple months old
+work to get this effort into tensorflow-trunk will be pursued.
