@@ -63,9 +63,9 @@ build process.
 A Dockerfile is provided in the grpc_tensorflow_server directory to
 ease with Marathon deployments.
 
-This software also supports running "multiprocess" versions of a
-distributed tensorflow compute sessions - a great way to test prior
-to distributed deployments.
+This software also supports running "multiprocess" versions of 
+distributed tensorflow compute sessions on a local host - a great 
+way to test prior to distributed deployments.
 
 The version of grpc_tensorflow_server_remote.cc is a couple months old
 work to get this effort into tensorflow-trunk will be pursued.
